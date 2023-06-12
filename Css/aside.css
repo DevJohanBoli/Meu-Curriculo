@@ -1,0 +1,153 @@
+aside {
+    margin: 20px;
+    flex: 30%;
+    border: #9b9b9b solid 1px;
+    box-shadow: 4px 4px 4px 6px rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+
+
+/*-----------------------------------------------------*/
+
+.foto img {
+    z-index: -1;
+    width: 100%;
+}
+
+.foto {
+    position: relative;
+    background-size: cover;
+    
+}
+
+.nome {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.nome h1 {
+    margin: 0;
+    color: #fff;
+}
+
+.foto:hover .nome {
+    visibility: visible;
+}
+
+.text-dec {
+    -webkit-text-stroke: 2px black;
+    font-size: 40px;
+}
+
+
+/*-----------------------------------------------------*/
+
+.info {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 30px 30px 30px 30px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.icone-ling,
+.icone-skill h1 {
+    font-size: 25px;
+}
+
+
+/*-------------------------------------------------------*/
+
+.skill {
+    padding: 10px;
+}
+
+.icone-skill {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill-texto {
+    margin: 5px 0;
+}
+
+.skill .skill-graf {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.skill-graf .preenchimento {
+    width: 100%;
+    background-color: var(--letras--);
+    border-radius: 30px;
+}
+
+.skill-graf .preenchimento2 {
+    width: 80%;
+    background-color: var(--letras--);
+    border-radius: 30px;
+}
+
+.skill-graf .preenchimento3 {
+    width: 50%;
+    background-color: var(--letras--);
+    border-radius: 30px;
+}
+
+.skill-graf .preenchimento4 {
+    width: 10%;
+    background-color: var(--letras--);
+    border-radius: 30px;
+}
+
+
+/*------------------------------------------------*/
+
+.ling {
+    padding: 10px;
+}
+
+.icone-ling {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ling-texto {
+    margin: 5px 0;
+}
+
+.ling .ling-graf {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.ling-graf .preenchimento-ling {
+    width: 80%;
+    background-color: var(--letras--);
+    border-radius: 30px;
+}
+
+.ling-graf .preenchimento-ling2 {
+    width: 70%;
+    background-color: var(--letras--);
+    border-radius: 30px;
+}
+
+.ling-graf .preenchimento-ling3 {
+    width: 40%;
+    background-color: var(--letras--);
+    border-radius: 30px;
+}
+
+
+/*-------------------------------------------------------*/
